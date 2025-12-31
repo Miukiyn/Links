@@ -1,6 +1,6 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 
-const supabase = createClient('https://ynjfamqtftudexhzxmji.supabase.co', 'sb_publishable_LjoM3Afrgi3p7M6JUdrFlw_N5krieUT')
+const supabase = createClient('https://ynjfamqtftudexhzxmji.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InluamZhbXF0ZnR1ZGV4aHp4bWppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjcxODk1NjAsImV4cCI6MjA4Mjc2NTU2MH0.pFo_A1eZ8cVr2NoVjKrJg6soLKvbZS29QUmIKV-RN9s')
 
 async function loadLinks() {
     try {
@@ -35,3 +35,4 @@ async function loadLinks() {
 }
 
 loadLinks();
+
